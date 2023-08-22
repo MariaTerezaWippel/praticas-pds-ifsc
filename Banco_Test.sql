@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS banco_test;
+
+USE banco_test;
+
+CREATE TABLE IF NOT EXISTS `livro` (
+  `id` INT AUTO_INCREMENT NOT NULL,
+  `genero` VARCHAR(45) NOT NULL,
+  `volume` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`)
+);
